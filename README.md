@@ -14,11 +14,11 @@ Upstream: https://github.com/retroSoC/uart
 
 Upstream author/maintainer: retroSoC; known contributor: maksyuki
 
-Current baseline: source snapshot imported as `20250627`
+Current baseline: source snapshot from the `20250627` tapeout project
 
 License: MulanPSL-2.0, with selected files carrying Solderpad Hardware License 0.51 provenance notices
 
-Status: candidate
+Status: candidate, silicon-proven source snapshot
 
 This repository is managed as a child repository of `ip-catalog`.
 
@@ -26,7 +26,7 @@ This repository is managed as a child repository of `ip-catalog`.
 
 This IP is an APB4-based UART controller implemented in SystemVerilog. The design provides UART transmit/receive logic, programmable baud-rate division, configurable word length, stop bit and parity settings, independent TX/RX FIFOs, and maskable interrupt status.
 
-The local repository contains a source mirror for catalog evaluation. It does not perform automated upstream synchronization.
+The local repository contains a source mirror from the `20250627` tapeout project for catalog evaluation. The IP has been validated in silicon according to the project provenance provided for this repository. This repository does not perform automated upstream synchronization.
 
 ## Layout
 
@@ -59,4 +59,6 @@ ip.yaml
 - Upstream public description: `An APB4-based UART Controller`
 - GitHub currently identifies the upstream license as `MulanPSL-2.0`.
 - Several RTL files retain ETH Zurich / University of Bologna Solderpad Hardware License 0.51 provenance notices.
-- Verification status is candidate-level only; no local passing simulation report has been added yet.
+- Current source snapshot comes from the `20250627` tapeout project code.
+- IP status is recorded as silicon-proven based on the provided tapeout project provenance.
+- No local passing simulation, lint, or silicon validation report artifact has been added yet.

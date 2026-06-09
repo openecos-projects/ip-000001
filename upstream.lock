@@ -8,9 +8,13 @@ upstream_ref: main
 upstream_ref_type: branch
 upstream_commit:
 local_source_snapshot: 20250627
+local_source_project: 20250627 tapeout project
+silicon_validated: true
 mirrored_at: 2026-06-09
 mirror_policy: source-mirror
 sync_policy: none
 notes:
   - This file records source provenance for catalog review.
+  - Current local code comes from the 20250627 tapeout project code.
+  - The IP has been silicon validated according to the provided project provenance.
   - Do not run automated upstream synchronization from this repository.

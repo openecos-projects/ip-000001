@@ -1,6 +1,6 @@
 # Source Snapshot
 
-The source tree in this repository was imported from a dated snapshot named `20250627`.
+The source tree in this repository was imported from the `20250627` tapeout project code snapshot.
 
 For catalog usability, the snapshot contents were organized into the standard single-IP repository layout:
 
@@ -11,6 +11,8 @@ For catalog usability, the snapshot contents were organized into the standard si
 ```
 
 No RTL behavior changes were made during this repository layout normalization.
+
+The IP has been silicon validated according to the project provenance provided for this repository. No standalone tapeout report, lab report, or silicon validation artifact is currently stored in this repository.
 
 Upstream source attribution:
 

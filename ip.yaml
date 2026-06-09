@@ -17,6 +17,7 @@ features:
   - parity
   - programmable-baud
   - configurable-word-length
+  - silicon-proven
 integration_profile:
   - apb4-slave
 best_for:
@@ -55,6 +56,10 @@ tracking:
   baseline_ref: source-snapshot-20250627
   baseline_reviewed_at: 2026-06-09
   update_policy: manual
+  provenance:
+    source_project: 20250627 tapeout project
+    source_snapshot: 20250627
+    silicon_validated: true
 
 technical:
   languages:
@@ -84,19 +89,23 @@ legal:
     - Add license texts and complete per-file SPDX review before approval.
 
 quality:
-  maturity: candidate
-  verification: testbench-present
+  maturity: silicon-proven
+  verification: silicon-validated
   documentation_quality: basic
   integration_difficulty: medium
   notes:
+    - Current code comes from the 20250627 tapeout project source snapshot.
+    - IP has been silicon validated according to the provided project provenance.
     - SystemVerilog testbench sources are present under tb/ and model/.
-    - No local passing simulation, lint, synthesis, or coverage report is currently recorded.
+    - No local passing simulation, lint, synthesis, coverage, or silicon validation report artifact is currently recorded.
 
 internal:
   status: candidate
-  next_action: Complete license file review and run a reproducible simulation/lint baseline.
+  next_action: Attach tapeout validation evidence, complete license file review, and run a reproducible simulation/lint baseline.
   source_mirror: true
   mirror_policy: source-mirror
+  silicon_proven: true
+  source_project: 20250627 tapeout project
 
 metadata:
   first_seen_at: 2026-06-09
