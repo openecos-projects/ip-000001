@@ -3,6 +3,7 @@ repo_name: ip-000001
 slug: uart-retrosoc-apb4
 display_name: APB4 UART Controller
 summary: APB4-based UART controller with configurable serial format, TX/RX FIFOs, programmable baud divider, and maskable interrupts.
+summary_zh: 基于 APB4 总线的 UART 控制器，支持可配置数据位、停止位、校验位、可编程波特率分频、独立收发 FIFO 和可屏蔽中断；当前代码为 20250627 流片工程快照，并记录为已硅验证候选 IP。
 category: peripheral
 subcategories:
   - uart
