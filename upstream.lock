@@ -1,0 +1,16 @@
+uid: ip-000001
+upstream_repository: https://github.com/retroSoC/uart
+upstream_owner: retroSoC
+upstream_author: retroSoC
+upstream_contributors:
+  - maksyuki
+upstream_ref: main
+upstream_ref_type: branch
+upstream_commit:
+local_source_snapshot: 20250627
+mirrored_at: 2026-06-09
+mirror_policy: source-mirror
+sync_policy: none
+notes:
+  - This file records source provenance for catalog review.
+  - Do not run automated upstream synchronization from this repository.

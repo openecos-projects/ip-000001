@@ -1,0 +1,37 @@
+# EDA and simulation outputs
+build/
+work/
+simv
+simv.daidir/
+csrc/
+*.vpd
+*.vcd
+*.fst
+*.fsdb
+*.wlf
+*.log
+*.jou
+*.key
+*.history
+*.pb
+*.rpt
+*.vstf
+*.ucdb
+*.vdb/
+
+# Tool databases
+.Xil/
+vivado*.backup*
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+
+# Local editor and OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
