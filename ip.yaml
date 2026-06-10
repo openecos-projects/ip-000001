@@ -33,7 +33,7 @@ catalog:
   path: data/ip/peripheral/ip-000001.yaml
 
 links:
-  catalog_repository: https://github.com/openecos-projects/ip-000001
+  catalog_repository: https://github.com/openecos-projects/apb4-uart-controller
   repository: https://github.com/retroSoC/uart
   homepage: https://github.com/retroSoC/uart
   documentation: https://github.com/retroSoC/uart/blob/main/doc/datasheet.md

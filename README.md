@@ -8,7 +8,7 @@ Family: uart
 
 Category: peripheral
 
-Repository: git@github.com:openecos-projects/ip-000001.git
+Repository: git@github.com:openecos-projects/apb4-uart-controller.git
 
 Upstream: https://github.com/retroSoC/uart
 
